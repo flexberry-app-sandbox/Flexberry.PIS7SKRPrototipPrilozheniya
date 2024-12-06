@@ -12,12 +12,12 @@
     "Frontend": {
       "EmberJs": {
         "EmberApp": true,
-        "EmberAddon": false,
-        "Build": false,
-        "GitClone": false,
-        "GitPush": false,
+        "EmberAddon": true,
+        "Build": true,
+        "GitClone": true,
+        "GitPush": true,
         "GhPagesPush": true,
-        "EmberMetadata": false
+        "EmberMetadata": true
       },
       "ApacheCordova": {
         "CordovaProject": false,
@@ -50,11 +50,11 @@
         "ConnectionString": null
       },
       "PostgreSql": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
-        "LiquibaseSql": false,
-        "Security": false,
-        "AdminUser": false,
+        "LiquibaseSql": true,
+        "Security": true,
+        "AdminUser": true,
         "ConnectionString": null
       },
       "ClickHouse": {
@@ -74,8 +74,8 @@
       }
     },
     "Docs": {
-      "Csv": false,
-      "Wmf": false
+      "Csv": true,
+      "Wmf": true
     },
     "Metadata": {
       "Crp": false,
